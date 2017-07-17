@@ -1,0 +1,11 @@
+{
+    "name": "light",
+    "version": "0.1.0",
+    "description": "hello world. there is light",
+    "author": "Jackon Yang",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {},
+        "version": 1
+    }
+}
