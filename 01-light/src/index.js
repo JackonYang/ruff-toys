@@ -7,8 +7,12 @@ $.ready(function (error) {
     }
 
     $('#led-r').turnOn();
+    $('#led-g').turnOn();
+    $('#led-b').turnOff();
 });
 
 $.end(function () {
     $('#led-r').turnOff();
+    $('#led-g').turnOff();
+    $('#led-b').turnOn();
 });
